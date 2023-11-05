@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+.navbar-brand{
+    color: #3399cc;
+    font-size: 1.6rem;
+    padding-top: 10px;
+    transition: 0.3s all ease;
+}
+.navbar-brand i{
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+ 
+.navbar-brand:hover{
+    color: #009999;
+}
+.duck{
+    background-image: url(Images/hero.jpg);
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.duck form{
+    display: flex;
+}
+.duck form input{
+    width: 360px;
+    border-radius: 0;
+    padding: 12px 15px;
+    color: #009999;
+    border: none;
+}
+.duck form input::placeholder{
+    color: #009999;
+}
+.duck form button{
+    color: #fff;
+    background-color: #009999;
+    border: none;
+    width: 100px;
+    height: 50px;
+    transition: 0.3s all ease;
+}
+.duck form button i{
+    font-weight: bold;
+    font-size: 16px;
+}
+.duck form button:hover{
+    background-color: #12dab8;
+}
+.photo{
+    margin-top: 60px;
+    margin-bottom: 1.5rem!important;
+    color: #009999;
+}
+
+.tm-text-gray-light{
+    color: #ccc;
+    
+}
+
+.tm-text-gray {
+    color: #999;
+}
+
+.mb-5{
+    margin-bottom: 90px;
+  
+}
+
+
+
+             /* videos */
+    
+             
+           
+
+ .vid form{
+    display: flex;
+}
+
+.vid form input{
+    width: 360px;
+    border-radius: 0;
+    padding: 12px 15px;
+    color: #009999;
+    border: none;
+}
+
+.vid form input::placeholder{
+    color: #009999;
+}
+
+
+.vid form button{
+    color: #fff;
+    background-color: #009999;
+    border: none;
+    width: 100px;
+    height: 50px;
+    transition: 0.3s all ease;
+}
+
+.vid form button i{
+    font-weight: bold;
+    font-size: 16px;
+}
+.vid form button:hover{
+    background-color: #12dab8;
+}
+
+#tm-video-container{
+    max-height: 400px;
+    overflow: hidden;
+    margin-bottom: 90px;
+    position: relative;
+}
+
+.tm video{
+    display: block;
+}
+.vid video{
+    width: 100%;
+    padding: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.a {
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.conti{
+    display: flex;
+}
+
+.conti p{
+    margin-top: 0;
+    /* padding: 15px;
+    text-align: center;
+    margin-right: 20px;
+     */
+    
+    
+
+}
+
+/**************************************** Photo frame start *************************************/
+
+.photo-frame{
+    margin-top: 60px;
+}
+.photo-frame h2{
+    color: #009999;
+}
+.photo-frame p{
+    color: #009999;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+}
+.photo-frame p span{
+    padding: 3px 17px;
+    background-color: #f4f4f4;
+    border: 1px solid #cccccc;
+    text-align: center;
+    margin: 0 6px;
+}
+.mb-90{
+    margin-bottom: 90px !important;
+}
+.date{
+    display: flex;
+    justify-content: space-between;
+}
+.date-name{
+    color: #ccc;
+    font-size: 16px;
+}
+.view-color{
+    color: #999;
+}
+.image-type img{
+    margin-bottom: 1rem;
+}
+.pagi-but{
+    display: flex;
+    justify-content: space-between;
+}
+.previous1 a{
+    background-color: #009999;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 50px;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: 0.3s all ease;
+}
+.previous1 a:hover{
+    background-color: #07cfcf;
+}
+.tm-mt-90{
+    margin-top: 90px !important;
+}
+.numbers a{
+    text-decoration: none;
+    color: #5e5a5a;
+    font-size: 22px;
+    background-color: #999999;
+    padding: 17px 30px;
+    border-radius: 7px;
+    margin: 0 5px;
+}
+.numbers a:first-child{
+    background-color: #009999;
+    color: #fff;
+}
+
+
+
+
+/*******************************************8 About Css Start ***************************************/
+
+.tm-mt-60{
+    margin-top: 60px;
+}
+
+.about-page h2{
+    color: #009999;
+}
+.mb-74{
+    margin-bottom: 74px;
+}
+.about-para p{
+    color: #999;
+    line-height: 1.8;
+    font-size: 18px;
+}
+.about-para p a{
+    text-decoration: none;
+}
+.about-para p a:hover{
+    color: #009999;
+}
+.mb-50{
+    margin-bottom: 100px;
+}
+.desktop{
+    margin-bottom: 50px;
+}
+.desktop h2{
+          color: #009999;
+}
+.icon-desk{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #009999;
+    justify-content: center;
+    align-items: center;
+}
+.icon-desk i{
+    font-size: 3em;
+    color: #009999;
+}
+
+.btn{
+  background-color: #009999;
+border: 0;
+border-radius: 5px;
+padding: 12px 50px 14px;
+font-size: 1.2rem;
+margin-top: 30px;
+color: white;
+}
+
+.btn:hover{
+    color: #061818;
+}
+
+.footer{
+    background-color: #EEEEEE;
+    font-size: 0.95rem;
+    max-width: 1770px;
+    padding-top: 5rem !important;
+}
+
+.col-lg-6 {
+    flex: 0 0 auto;
+    max-width: 50%;
+}
+
+.footer h3{
+    color: #009999;
+    font-size: 1.4rem;
+}
+
+.footer p{
+    color: #999;
+    line-height: 1.8;
+    padding-top: 3%;
+    font-size: 20px;
+}
+
+.ic{
+   list-style: none;
+   margin-right: 30px;
+   display: flex;
+}
+.ic i{
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px;
+    color: #999999;
+    width: 44px;
+    height: 44px;
+    
+}
+
+.ic i:hover{
+    color: #009999;
+}
+
+.pc{
+    color: #999;
+    margin-bottom: 0.5rem !important;
+    text-align: right !important;
+    padding: 30px;
+}
+
+.mb-3{
+    color: #999;
+    margin-bottom: 1rem !important;
+}
+
+.text-right{
+    text-align: right !important;
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+    width: 33.333333%;
+    color: #999;
+}
+.pagination a{
+    color: #fff;
+    background-color: #009999;
+    display: flex !important;
+    font-size: 1.2rem;
+    padding: 12px 50px 14px;
+    border-radius: 5px;
+    font-size: 30px;
+    align-items:center!important;
+    justify-content:space-between!important;  
+    flex: 0 0 auto;
+   }
+
+
+   .contact{
+    color: #009999;
+    margin-bottom: 3rem !important;
+    margin-top: 100px;
+   }
+
+   .form-control{
+      color: #009999 !important;
+      padding:  10px 20px; 
+      width: 100%;
+   }
+
+   .btn{
+    background-color: #009999;
+    border: 0;
+    border-radius: 5px;
+    padding: 12px 50px 14px;
+    font-size: 1.2rem;
+   }
+
+   .addresh p{
+    margin-bottom: 50px;
+    color:#999;
+   }
+   .form-group input{
+    margin-bottom: 25px;
+   }
+   .form-group select{
+    margin-bottom: 25px;
+   }
+   .form-group{
+    margin-bottom: 25px;
+   }
+
+
+
+   .tm-mb-74{
+    margin-bottom: 74px;
+   }
+
+   .md-5{
+    margin-bottom: 3rem !important;
+    flex: 0 0 auto;
+    width: 25%;
+   }
+
+   .md-5 img{
+    max-width: 100%;
+    margin-bottom: 1.5rem !important;
+    height: auto;
+    vertical-align: middle;
+   }
+
+   .Ryan{
+    color: #009999;
+    font-size: 2rem;
+    margin-bottom: 1.5rem !important;
+   }
+
+   .chp{
+    color: #cc6699;
+    margin-bottom: 1.5rem !important;
+   }
+
+   .pp{
+    margin-bottom: 1.5rem !important;
+    color: #999;
+    line-height: 1.8 !important;
+    font-size:19px;
+    margin-top: 0;
+   }
